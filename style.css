@@ -1,0 +1,19 @@
+* {
+  font-family: "SF Pro Display", sans-serif;
+  letter-spacing: 1px;
+}
+
+header .container {
+  height: 50px;
+  color: #1a232f;
+  font-size: 13px;
+}
+
+.discord-button {
+  padding: 6px 10px;
+  border-radius: 50rem !important;
+  color: #989ca2;
+  background-color: rgba(152, 156, 162, 0.15);
+  border-color: rgba(152, 156, 162, 0.15);
+  font-size: 12px;
+}
