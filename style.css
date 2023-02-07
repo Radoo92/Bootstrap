@@ -50,3 +50,11 @@ header .container {
 .bg-primary {
   background-color: #3597ff !important;
 }
+
+.text-gray {
+  color: #566b8d;
+}
+
+.fs-7 {
+  font-size: 0.875rem;
+}
