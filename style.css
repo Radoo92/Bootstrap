@@ -16,6 +16,19 @@ header .container {
   background-color: rgba(152, 156, 162, 0.15);
   border-color: rgba(152, 156, 162, 0.15);
   font-size: 12px;
+  text-decoration: none;
+}
+
+.btn-primary {
+  background-color: #3597ff !important;
+  border-color: #3597ff !important;
+}
+
+.btn {
+  font-size: 14px;
+  padding: 12px 20px;
+  white-space: nowrap;
+  border-radius: 6px;
 }
 
 .navbar-nav * {
@@ -26,8 +39,8 @@ header .container {
 }
 
 .navbar-nav > li {
-  margin-left: 30px;
-  margin-right: 30px;
+  margin-left: 20px;
+  margin-right: 10px;
 }
 
 .main-visual-image {
