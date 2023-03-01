@@ -58,3 +58,38 @@ header .container {
 .fs-7 {
   font-size: 0.875rem;
 }
+
+.vision-item {
+  width: 233px;
+  height: 183px;
+  border-radius: 4px;
+  text-align: right;
+}
+
+#vision .vision-item:nth-child(1) {
+  color: #5b94d7;
+  background-color: rgba(221, 236, 251, 0.4);
+}
+
+#vision .vision-item:nth-child(2) {
+  color: #5cc19a;
+  background-color: rgba(156, 238, 204, 0.4);
+}
+
+#vision .vision-item:nth-child(3) {
+  color: #dbca68;
+  background-color: rgba(238, 226, 156, 0.4);
+}
+
+#vision .vision-item:nth-child(4) {
+  color: #b95e73;
+  background-color: rgba(238, 156, 156, 0.4);
+}
+
+#vision .vision-item .count {
+  font-size: 90px;
+}
+
+#vision .vision-item .type {
+  font-size: 18px;
+}
