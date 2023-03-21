@@ -93,3 +93,11 @@ header .container {
 #vision .vision-item .type {
   font-size: 18px;
 }
+
+.fs-6 {
+  font-size: 1.125rem !important;
+}
+
+.text-primary {
+  color: #3597ff !important;
+}
