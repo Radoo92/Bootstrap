@@ -4,7 +4,6 @@
 }
 
 header .container {
-  height: 50px;
   color: #1a232f;
   font-size: 13px;
 }
@@ -100,4 +99,8 @@ header .container {
 
 .text-primary {
   color: #3597ff !important;
+}
+
+.bg-color {
+  background-color: #f3f9ff;
 }
