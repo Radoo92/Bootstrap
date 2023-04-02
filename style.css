@@ -113,3 +113,7 @@ header .container {
 .bg-newsletter {
   background-color: #d7eaff !important;
 }
+
+footer {
+  font-size: 13px;
+}
