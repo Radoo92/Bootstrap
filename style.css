@@ -117,3 +117,8 @@ header .container {
 footer {
   font-size: 13px;
 }
+
+.shadow-hover:hover {
+  border-radius: 6px !important;
+  box-shadow: 0px 0.95237px 23.8092px rgba(99, 118, 149, 0.15);
+}
