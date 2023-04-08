@@ -122,3 +122,13 @@ footer {
   border-radius: 6px !important;
   box-shadow: 0px 0.95237px 23.8092px rgba(99, 118, 149, 0.15);
 }
+
+.labs-item:hover .arrow {
+  fill: #3597ff;
+  opacity: 1;
+}
+
+.arrow {
+  fill: #71829f;
+  opacity: 0.5;
+}
