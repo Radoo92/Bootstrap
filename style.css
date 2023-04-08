@@ -132,3 +132,7 @@ footer {
   fill: #71829f;
   opacity: 0.5;
 }
+
+.nav-item a:hover {
+  color: #3597ff !important;
+}
