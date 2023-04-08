@@ -136,3 +136,13 @@ footer {
 .nav-item a:hover {
   color: #3597ff !important;
 }
+
+#main-visual .letter {
+  width: 241px;
+  transform: translate(0%, 50%);
+}
+
+#main-visual .letter img {
+  width: 482px;
+  object-fit: contain;
+}
