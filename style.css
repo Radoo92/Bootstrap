@@ -21,6 +21,7 @@ header .container {
 .btn-primary {
   background-color: #3597ff !important;
   border-color: #3597ff !important;
+  margin-left: 280px;
 }
 
 .btn {
@@ -28,15 +29,21 @@ header .container {
   padding: 12px 20px;
   white-space: nowrap;
   border-radius: 6px;
+  color: white !important;
 }
 
 .navbar-nav * {
   font-size: 14px;
   font-weight: 500;
-  color: #1a232f !important;
+  color: #1a232f;
   text-decoration: none;
 }
 
+@media screen and (max-width: 768px) {
+  .btn-primary {
+    margin: auto;
+  }
+}
 .navbar-nav > li {
   margin-left: 20px;
   margin-right: 10px;
