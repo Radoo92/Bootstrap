@@ -157,3 +157,16 @@ footer {
 input:focus {
   outline: none;
 }
+
+.button-carousel {
+  border: 0;
+  box-shadow: none;
+  padding: 0%;
+  border-radius: 0%;
+  appearance: none;
+  opacity: 0.5;
+}
+
+.button-carousel:hover {
+  opacity: 1;
+}

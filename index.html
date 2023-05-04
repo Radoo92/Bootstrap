@@ -35,7 +35,7 @@
           <img src="assets/openlab-logo.svg" />
         </a>
         <button
-          class="navbar-toggler"
+          class="navbar-toggler ms-auto"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarNav"
@@ -46,7 +46,9 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav align-items-center mx-md-5 me-xl-auto">
+          <ul
+            class="navbar-nav align-items-end me-xl-auto align-items-xl-center mt-xl-0 mt-1"
+          >
             <li class="nav-item"><a href="https://openlab.sk/">Úvod</a></li>
             <li class="nav-item">
               <a href="https://openlab.sk/openlaby">OpenLab</a>
@@ -63,9 +65,10 @@
             <li class="nav-item">
               <a href="https://openlab.sk/caste-otazky">Časté otázky</a>
             </li>
-            <button class="btn btn-primary">Pridajte sa k nám</button>
+            <li class="mt-xl-0 mt-1">
+              <button class="btn btn-primary">Pridajte sa k nám</button>
+            </li>
           </ul>
-          <!-- <button class="btn btn-primary">Pridajte sa k nám</button> -->
         </div>
       </div>
     </nav>
@@ -324,33 +327,84 @@
         </div>
       </div>
     </section>
-    <section id="students" class="bg-color pb-5">
-      <div class="container d-flex align-items-center">
-        <div class="col-lg-5">
-          <h1 class="fw-bold mb-5">
-            Čo si myslia<br /><span class="fw-light">o OpenLabe študenti?</span>
-          </h1>
-          <div>
-            <p class="text-gray mb-5 fw-4">
-              Openlab mi dal neuveriteľné množstvo skúsenosti do života, super
-              ľudí, s ktorými vďaka stážam pracujem v rovnakej firme a
-              samozrejme mnoho ďalších dôležitých veci pre fungovanie v dnešnej
-              “IT” sfére. Prístup akým sa tu vyučuje je presne taký, aký v
-              dnešnej dobe potrebujeme na stredných školách.
-            </p>
-            <div class="d-flex align-items-center">
-              <div>
-                <img class="me-2" src="/assets/icon-person.svg" />
+    <section id="students" class="bg-color pt-5">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6 col-xl-5">
+            <h1 class="fw-bold mb-5">
+              Čo si myslia<br /><span class="fw-light"
+                >o OpenLabe študenti?</span
+              >
+            </h1>
+            <div id="carouselExample" class="carousel slide">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div>
+                    <p class="text-gray mb-5 fw-4">
+                      Openlab mi dal neuveriteľné množstvo skúsenosti do života,
+                      super ľudí, s ktorými vďaka stážam pracujem v rovnakej
+                      firme a samozrejme mnoho ďalších dôležitých veci pre
+                      fungovanie v dnešnej “IT” sfére. Prístup akým sa tu
+                      vyučuje je presne taký, aký v dnešnej dobe potrebujeme na
+                      stredných školách.
+                    </p>
+                    <div class="d-flex align-items-center">
+                      <div>
+                        <img class="me-2" src="/assets/icon-person.svg" />
+                      </div>
+                      <div>
+                        <p class="text-gray fs-7 fw-bold mb-0">Marko</p>
+                        <p class="text-gray fs-7 mb-0">HybridLab, IST</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div>
+                    <p class="text-gray mb-5 fw-4">
+                      Som veľmi rád, že som mal na strednej škole možnosť byť
+                      súčasťou OpenLabu a získavať vedomosti priamo od ľudí z
+                      praxe. Vďaka OpenLabu som už počas strednej skoly stážoval
+                      vo firme a naberal skúsenosti na projektoch, ktoré by som
+                      napríklad na vysokej škole ťažko naberal
+                    </p>
+                    <div class="d-flex align-items-center">
+                      <div>
+                        <img class="me-2" src="/assets/icon-person.svg" />
+                      </div>
+                      <div>
+                        <p class="text-gray fs-7 fw-bold mb-0">Marek</p>
+                        <p class="text-gray fs-7 mb-0">HybridLab, IST</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <div>
-                <p class="text-gray fs-7 fw-bold mb-0">Marko</p>
-                <p class="text-gray fs-7 mb-0">HybridLab, IST</p>
+              <div class="position-absolute bottom-0 end-0">
+                <button
+                  class="button-carousel"
+                  type="button"
+                  data-bs-target="#carouselExample"
+                  data-bs-slide="prev"
+                >
+                  <img src="/assets/arrow-slide-left.svg" />
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button
+                  class="button-carousel"
+                  type="button"
+                  data-bs-target="#carouselExample"
+                  data-bs-slide="next"
+                >
+                  <img src="/assets/arrow-slide-right.svg" />
+                  <span class="visually-hidden">Next</span>
+                </button>
               </div>
             </div>
           </div>
-        </div>
-        <div class="d-none d-lg-flex col-lg-6">
-          <img class="img-fluid" src="/assets/students3.png" />
+          <div class="d-none d-lg-flex col-lg-6 offset-xl-1">
+            <img class="img-fluid" src="/assets/students3.png" />
+          </div>
         </div>
       </div>
     </section>
